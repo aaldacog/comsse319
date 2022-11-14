@@ -19,12 +19,12 @@ Construction of User Interfaces
   </ol>
 </details>
 
-<!--     <button onclick="getLocation()">Try It</button> -->
+<button onclick="getLocation()">Try It</button>
     
     
-<!--     <p id="demo"></p>
+<p id="demo"></p>
 
-    <script>
+<script>
     const x = document.getElementById("demo");
 
     function getLocation() {
@@ -39,5 +39,5 @@ Construction of User Interfaces
       x.innerHTML = "Latitude: " + position.coords.latitude + 
       "<br>Longitude: " + position.coords.longitude;
     }
-    </script> -->
+</script>
     
