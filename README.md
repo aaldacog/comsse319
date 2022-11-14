@@ -20,24 +20,23 @@ Construction of User Interfaces
 </details>
 
 <button onclick="getLocation()">Try It</button>
-    
-    
+   
 <p id="demo"></p>
 
 <script>
-    const x = document.getElementById("demo");
+const x = document.getElementById("demo");
 
-    function getLocation() {
-      try {
-        navigator.geolocation.getCurrentPosition(showPosition);
-      } catch {
-        x.innerHTML = err;
-      }
-    }
+function getLocation() {
+   try {
+      navigator.geolocation.getCurrentPosition(showPosition);
+   } catch {
+      x.innerHTML = err;
+   }
+}
 
-    function showPosition(position) {
-      x.innerHTML = "Latitude: " + position.coords.latitude + 
-      "<br>Longitude: " + position.coords.longitude;
-    }
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
 </script>
     
