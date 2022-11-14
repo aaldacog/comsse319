@@ -1,7 +1,6 @@
 # comsse319
 Construction of User Interfaces
-<!DOCTYPE html>
-<html lang="en">
+
 
 <body>
     <h1>HTML Tutorial</h1>
@@ -32,5 +31,3 @@ Construction of User Interfaces
     }
     </script> -->
     
-</body>
-</html>
