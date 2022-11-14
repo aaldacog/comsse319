@@ -2,7 +2,6 @@
 Construction of User Interfaces
 
 
-<body>
     <h1>HTML Tutorial</h1>
     
     <h2>JavaScript Geolocation</h2>
